@@ -1,4 +1,4 @@
-# Demo of the the visualisation solution:
+# Demo of the visualisation solution:
 
 
 ![sc1](https://github.com/user-attachments/assets/021e527a-bca7-45d5-96e8-74e3b0b5af7e)
