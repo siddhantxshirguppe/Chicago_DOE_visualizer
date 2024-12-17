@@ -1,0 +1,164 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_stacked_bar_scatter/altair-data-afcb77b974a81a42a1cd3c349eb1ffa7.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "INSPECTOR",
+                    "title": "Inspector",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "COUNT",
+                    "title": "Number of Complaints",
+                    "type": "quantitative"
+                }
+            },
+            "height": 400,
+            "name": "view_9",
+            "title": "Top 10 Inspectors for Selected Complaint",
+            "width": 500
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_stacked_bar_scatter/altair-data-05a75c49af1b4bf5d73dcae9fda24fb9.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "size": 120
+            },
+            "encoding": {
+                "color": {
+                    "field": "community",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "INSPECTOR",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COUNT",
+                        "type": "quantitative"
+                    },
+                    {
+                        "field": "community",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "COMPLAINT YEAR",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "COUNT",
+                    "type": "quantitative"
+                }
+            },
+            "height": 400,
+            "name": "view_10",
+            "title": "Inspector Complaints by Year (use tool-tip to identify inspector!)",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_20",
+                        "empty": true
+                    }
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "params": [
+        {
+            "name": "param_17",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "latitude_centroid",
+                    "longitude_centroid"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_9",
+                "view_10"
+            ]
+        },
+        {
+            "name": "param_18",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "COMPLAINT TYPE"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_9",
+                "view_10"
+            ]
+        },
+        {
+            "name": "param_19",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "INSPECTOR"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_9",
+                "view_10"
+            ]
+        },
+        {
+            "name": "param_20",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "INSPECTOR"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_9"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

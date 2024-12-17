@@ -1,0 +1,286 @@
+{
+    "config": {
+      "view": {
+        "continuousWidth": 300,
+        "continuousHeight": 300
+      },
+      "concat": {
+        "spacing": 60
+      },
+      "legend": {
+        "offset": -180,
+        "orient": "top-right",
+        "titleLimit": 0
+      }
+    },
+    "vconcat": [
+      {
+        "hconcat": [
+          {
+            "data": {
+              "url": "vega_lite/linked_charts/linked_cumulative/linked_scatter_plot.json",
+              "format": {
+                "type": "json"
+              }
+            },
+            "mark": {
+              "type": "circle",
+              "size": 200
+            },
+            "encoding": {
+              "tooltip": [
+                {
+                  "field": "community",
+                  "type": "nominal"
+                }
+              ],
+              "x": {
+                "field": "longitude_centroid",
+                "scale": {
+                  "domain": [
+                    -87.89370075775543,
+                    -87.53490233790232
+                  ]
+                },
+                "type": "quantitative"
+              },
+              "y": {
+                "field": "latitude_centroid",
+                "scale": {
+                  "domain": [
+                    41.66013746994187,
+                    42.009623377988696
+                  ]
+                },
+                "type": "quantitative"
+              }
+            },
+            "height": 500,
+            "name": "view_5",
+            "title": "Scatter Plot of Complaints by Location",
+            "width": 400
+          },
+          {
+            "data": {
+              "url": "vega_lite/linked_charts/linked_cumulative/linked_pie_data.json",
+              "format": {
+                "type": "json"
+              }
+            },
+            "mark": {
+              "type": "arc"
+            },
+            "encoding": {
+              "color": {
+                "field": "COMPLAINT TYPE",
+                "legend": {
+                  "orient": "right",
+                  "title": "Category Legend"
+                },
+                "scale": {
+                  "scheme": "category20"
+                },
+                "type": "nominal"
+              },
+              "theta": {
+                "field": "COUNT",
+                "type": "quantitative"
+              },
+              "tooltip": [
+                {
+                  "field": "COMPLAINT TYPE",
+                  "type": "nominal"
+                },
+                {
+                  "field": "COUNT",
+                  "type": "quantitative"
+                }
+              ]
+            },
+            "height": 400,
+            "title": "Pie Chart of Complaints",
+            "transform": [
+              {
+                "filter": {
+                  "param": "param_4",
+                  "empty": true
+                }
+              }
+            ],
+            "width": 300
+          }
+        ]
+      },
+      {
+        "hconcat": [
+          {
+            "data": {
+              "url": "vega_lite/linked_charts/linked_cumulative/linked_bar_plot.json",
+              "format": {
+                "type": "json"
+              }
+            },
+            "mark": {
+              "type": "bar"
+            },
+            "encoding": {
+              "color": {
+                "field": "COMPLAINT TYPE",
+                "scale": {
+                  "scheme": "category20"
+                },
+                "type": "nominal"
+              },
+              "tooltip": [
+                {
+                  "field": "COMPLAINT TYPE",
+                  "type": "nominal"
+                }
+              ],
+              "x": {
+                "field": "INSPECTOR",
+                "title": "Inspector",
+                "type": "nominal"
+              },
+              "y": {
+                "field": "COUNT",
+                "title": "Number of Complaints",
+                "type": "quantitative"
+              }
+            },
+            "height": 400,
+            "name": "view_6",
+            "title": "Top 5 Inspectors for Selected Complaint",
+            "transform": [
+              {
+                "filter": {
+                  "param": "param_4",
+                  "empty": true
+                }
+              }
+            ],
+            "width": 500
+          },
+          {
+            "layer": [
+              {
+                "mark": {
+                  "type": "line"
+                },
+                "encoding": {
+                  "color": {
+                    "field": "INSPECTOR",
+                    "type": "nominal"
+                  },
+                  "x": {
+                    "field": "COMPLAINT YEAR",
+                    "type": "nominal"
+                  },
+                  "y": {
+                    "field": "COUNT",
+                    "type": "quantitative"
+                  }
+                },
+                "transform": [
+                  {
+                    "filter": {
+                      "param": "param_5"
+                    }
+                  }
+                ]
+              },
+              {
+                "mark": {
+                  "type": "circle",
+                  "size": 120
+                },
+                "encoding": {
+                  "color": {
+                    "field": "INSPECTOR",
+                    "type": "nominal"
+                  },
+                  "tooltip": [
+                    {
+                      "field": "INSPECTOR",
+                      "type": "nominal"
+                    },
+                    {
+                      "field": "COUNT",
+                      "type": "quantitative"
+                    }
+                  ],
+                  "x": {
+                    "field": "COMPLAINT YEAR",
+                    "type": "nominal"
+                  },
+                  "y": {
+                    "field": "COUNT",
+                    "type": "quantitative"
+                  }
+                },
+                "name": "view_4",
+                "transform": [
+                  {
+                    "filter": {
+                      "param": "param_5"
+                    }
+                  }
+                ]
+              }
+            ],
+            "data": {
+              "url": "vega_lite/linked_charts/linked_cumulative/linked_line_data.json",
+              "format": {
+                "type": "json"
+              }
+            },
+            "height": 400,
+            "title": "Inspector Complaints by Year (use tool-tip to identify inspector!)",
+            "width": 400
+          }
+        ]
+      }
+    ],
+    "params": [
+      {
+        "name": "param_4",
+        "select": {
+          "type": "point",
+          "fields": [
+            "latitude_centroid",
+            "longitude_centroid"
+          ],
+          "on": "click"
+        },
+        "views": [
+          "view_5"
+        ]
+      },
+      {
+        "name": "param_5",
+        "select": {
+          "type": "point",
+          "fields": [
+            "INSPECTOR"
+          ]
+        },
+        "views": [
+          "view_6"
+        ]
+      },
+      {
+        "name": "param_6",
+        "select": {
+          "type": "point",
+          "fields": [
+            "INSPECTOR"
+          ],
+          "on": "click"
+        },
+        "views": [
+          "view_4"
+        ]
+      }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+  }

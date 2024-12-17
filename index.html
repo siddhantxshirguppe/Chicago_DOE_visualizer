@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Vega-Lite Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .chart {
+            flex: 1 0 20%;
+            margin: 10px;
+            width: 50%; /* 50% of the container width */
+            height: 50%; /* 50% of the container height */
+        }
+
+        /* Style for linked views charts */
+        #linkedViews .chart {
+            flex: 1 0 20%;
+            margin: 10px;
+            /* You can adjust the width and height for linked view charts as needed */
+            width: auto; /* Adjust as needed */
+            height: auto; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'SingleViews')">Single-Linked</button>
+    <button class="tablinks" onclick="openTab(event, 'spatialViews')">Spatial Views</button>
+    <button class="tablinks" onclick="openTab(event, 'linkedViews')">Linked Views</button>
+</div>
+
+<div id="SingleViews" class="tabcontent">
+    <h2>Section 1</h2>
+    <div class="chart-container">
+        <div class="chart" id="vis1"></div>
+        <script type="text/javascript">
+            var spec1 = "vega_lite/spider-plot-spec.json";
+            vegaEmbed('#vis1', spec1)        
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis2"></div>
+        <script type="text/javascript">
+            var spec2 = "vega_lite/waterfall-plot-spec.json";
+            vegaEmbed('#vis2', spec2)       
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis3"></div>
+        <script type="text/javascript">
+            var spec3 = "vega_lite/bidirectional-bar-plot-spec.json";
+            vegaEmbed('#vis3', spec3)       
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis4"></div>
+        <script type="text/javascript">
+            var spec4 = "vega_lite/pie-chart-spec.json";
+            vegaEmbed('#vis4', spec4)
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis5"></div>
+        <script type="text/javascript">
+            var spec5 = "vega_lite/grid-chart-spec.json";
+            vegaEmbed('#vis5', spec5)
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis6"></div>
+        <script type="text/javascript">
+            var spec6 = "vega_lite/stacked-area-chart-spec.json";
+            vegaEmbed('#vis6', spec6)
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+        <div class="chart" id="vis7"></div>
+        <script type="text/javascript">
+            var spec7 = "vega_lite/histogram-spec.json";
+            vegaEmbed('#vis7', spec7)
+              .then((result) => console.log(result))
+              .catch((error) => console.error(error));
+        </script>
+    </div>
+</div>
+
+<div id="spatialViews" class="tabcontent">
+    <h2>Section 2</h2>
+    <div class="chart-container">
+        <div class="chart" id="spatial_vis1"></div>
+        <script type="text/javascript">
+            var spatial_spec1 = "vega_lite/spatial1-cumulative-spec.json";
+            vegaEmbed('#spatial_vis1', spatial_spec1);
+        </script>
+        <div class="chart" id="spatial_vis2"></div>
+        <script type="text/javascript">
+            var spatial_spec2 = "vega_lite/spatial2-by_decade-spec.json";
+            vegaEmbed('#spatial_vis2', spatial_spec2);
+        </script>
+        <div class="chart" id="spatial_vis3"></div>
+        <script type="text/javascript">
+            var spatial_spec3 = "vega_lite/spatial3-distribution-spec.json";
+            vegaEmbed('#spatial_vis3', spatial_spec3);
+        </script>
+    </div>
+</div>
+
+<div id="linkedViews" class="tabcontent">
+    <h2>Section 3</h2>
+    <div class="chart-container">
+        <div class="chart" id="linked_vis1"></div>
+        <script type="text/javascript">
+            var linked_spec1 = "vega_lite/linked_charts/linked_stacked_line_grid/linked_stacked_line_grid_raw_files.json";
+            vegaEmbed('#linked_vis1', linked_spec1);
+        </script>
+        <div class="chart" id="linked_vis2"></div>
+        <script type="text/javascript">
+            var linked_spec2 = "vega_lite/linked_charts/linked_histogram_choropleth/linked_histogram_choropleth_raw_files.json";
+            vegaEmbed('#linked_vis2', linked_spec2);
+        </script>
+        <div class="chart" id="linked_vis3"></div>
+        <script type="text/javascript">
+            var linked_spec3 = "vega_lite/linked_charts/linked_histogram_scatter/linked_histogram_scatter_raw_files.json";
+            vegaEmbed('#linked_vis3', linked_spec3);
+        </script>
+        <div class="chart" id="linked_vis4"></div>
+        <script type="text/javascript">
+            var linked_spec4 = "vega_lite/linked_charts/linked_line_stacked_bar/linked_line_stacked_bar_raw_files.json";
+            vegaEmbed('#linked_vis4', linked_spec4);
+        </script>
+        <div class="chart" id="linked_vis5"></div>
+        <script type="text/javascript">
+            var linked_spec5 = "vega_lite/linked_charts/linked_pie_horizontal_bar/linked_pie_horizontal_bar_raw_files.json";
+            vegaEmbed('#linked_vis5', linked_spec5);
+        </script>
+        <div class="chart" id="linked_vis6"></div>
+        <script type="text/javascript">
+            var linked_spec6 = "vega_lite/linked_charts/linked_pie_scatter/linked_pie_scatter_raw_files.json";
+            vegaEmbed('#linked_vis6', linked_spec6);
+        </script>
+        <div class="chart" id="linked_vis7"></div>
+        <script type="text/javascript">
+            var linked_spec7 = "vega_lite/linked_charts/linked_scatter_pie/linked_scatter_pie_raw_files.json";
+            vegaEmbed('#linked_vis7', linked_spec7);
+        </script>
+        <div class="chart" id="linked_vis8"></div>
+        <script type="text/javascript">
+            var linked_spec8 = "vega_lite/linked_charts/linked_stacked_bar_scatter/linked_stacked_bar_scatter_raw_files.json";
+            vegaEmbed('#linked_vis8', linked_spec8);
+        </script>
+        <div class="chart" id="linked_vis9"></div>
+        <script type="text/javascript">
+            var linked_spec9 = "vega_lite/linked_charts/linked_donut_bar/linked_donut_bar_raw_files.json";
+            vegaEmbed('#linked_vis9', linked_spec9);
+        </script>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        // Simulate a click event on the tab you want to open by default
+        // Replace 'SingleView' with the id of the tab you want to open
+        openTab('event', 'SingleViews');
+    }
+
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+</body>
+</html>

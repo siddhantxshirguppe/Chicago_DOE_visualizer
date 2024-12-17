@@ -1,0 +1,172 @@
+[
+    {
+        "YEAR": "Begin",
+        "COMPLAINT COUNT": 2271.0,
+        "COUNT_CHANGE": 2271.0
+    },
+    {
+        "YEAR": "Begin",
+        "COMPLAINT COUNT": 2271.0,
+        "COUNT_CHANGE": 0.0
+    },
+    {
+        "YEAR": 1993.0,
+        "COMPLAINT COUNT": 2271.0,
+        "COUNT_CHANGE": 0.0
+    },
+    {
+        "YEAR": 1994.0,
+        "COMPLAINT COUNT": 2792.0,
+        "COUNT_CHANGE": 521.0
+    },
+    {
+        "YEAR": 1995.0,
+        "COMPLAINT COUNT": 2143.0,
+        "COUNT_CHANGE": -649.0
+    },
+    {
+        "YEAR": 1996.0,
+        "COMPLAINT COUNT": 2471.0,
+        "COUNT_CHANGE": 328.0
+    },
+    {
+        "YEAR": 1997.0,
+        "COMPLAINT COUNT": 2038.0,
+        "COUNT_CHANGE": -433.0
+    },
+    {
+        "YEAR": 1998.0,
+        "COMPLAINT COUNT": 2561.0,
+        "COUNT_CHANGE": 523.0
+    },
+    {
+        "YEAR": 1999.0,
+        "COMPLAINT COUNT": 2592.0,
+        "COUNT_CHANGE": 31.0
+    },
+    {
+        "YEAR": 2000.0,
+        "COMPLAINT COUNT": 2869.0,
+        "COUNT_CHANGE": 277.0
+    },
+    {
+        "YEAR": 2001.0,
+        "COMPLAINT COUNT": 2676.0,
+        "COUNT_CHANGE": -193.0
+    },
+    {
+        "YEAR": 2002.0,
+        "COMPLAINT COUNT": 2600.0,
+        "COUNT_CHANGE": -76.0
+    },
+    {
+        "YEAR": 2003.0,
+        "COMPLAINT COUNT": 2547.0,
+        "COUNT_CHANGE": -53.0
+    },
+    {
+        "YEAR": 2004.0,
+        "COMPLAINT COUNT": 2181.0,
+        "COUNT_CHANGE": -366.0
+    },
+    {
+        "YEAR": 2005.0,
+        "COMPLAINT COUNT": 2245.0,
+        "COUNT_CHANGE": 64.0
+    },
+    {
+        "YEAR": 2006.0,
+        "COMPLAINT COUNT": 1864.0,
+        "COUNT_CHANGE": -381.0
+    },
+    {
+        "YEAR": 2007.0,
+        "COMPLAINT COUNT": 1695.0,
+        "COUNT_CHANGE": -169.0
+    },
+    {
+        "YEAR": 2008.0,
+        "COMPLAINT COUNT": 1386.0,
+        "COUNT_CHANGE": -309.0
+    },
+    {
+        "YEAR": 2009.0,
+        "COMPLAINT COUNT": 1495.0,
+        "COUNT_CHANGE": 109.0
+    },
+    {
+        "YEAR": 2010.0,
+        "COMPLAINT COUNT": 1262.0,
+        "COUNT_CHANGE": -233.0
+    },
+    {
+        "YEAR": 2011.0,
+        "COMPLAINT COUNT": 1475.0,
+        "COUNT_CHANGE": 213.0
+    },
+    {
+        "YEAR": 2012.0,
+        "COMPLAINT COUNT": 1074.0,
+        "COUNT_CHANGE": -401.0
+    },
+    {
+        "YEAR": 2013.0,
+        "COMPLAINT COUNT": 1220.0,
+        "COUNT_CHANGE": 146.0
+    },
+    {
+        "YEAR": 2014.0,
+        "COMPLAINT COUNT": 1110.0,
+        "COUNT_CHANGE": -110.0
+    },
+    {
+        "YEAR": 2015.0,
+        "COMPLAINT COUNT": 840.0,
+        "COUNT_CHANGE": -270.0
+    },
+    {
+        "YEAR": 2016.0,
+        "COMPLAINT COUNT": 974.0,
+        "COUNT_CHANGE": 134.0
+    },
+    {
+        "YEAR": 2017.0,
+        "COMPLAINT COUNT": 1009.0,
+        "COUNT_CHANGE": 35.0
+    },
+    {
+        "YEAR": 2018.0,
+        "COMPLAINT COUNT": 945.0,
+        "COUNT_CHANGE": -64.0
+    },
+    {
+        "YEAR": 2019.0,
+        "COMPLAINT COUNT": 1362.0,
+        "COUNT_CHANGE": 417.0
+    },
+    {
+        "YEAR": 2020.0,
+        "COMPLAINT COUNT": 1797.0,
+        "COUNT_CHANGE": 435.0
+    },
+    {
+        "YEAR": 2021.0,
+        "COMPLAINT COUNT": 2397.0,
+        "COUNT_CHANGE": 600.0
+    },
+    {
+        "YEAR": 2022.0,
+        "COMPLAINT COUNT": 2043.0,
+        "COUNT_CHANGE": -354.0
+    },
+    {
+        "YEAR": 2023.0,
+        "COMPLAINT COUNT": 1612.0,
+        "COUNT_CHANGE": -431.0
+    },
+    {
+        "YEAR": "End",
+        "COMPLAINT COUNT": 1612.0,
+        "COUNT_CHANGE": 1612.0
+    }
+]

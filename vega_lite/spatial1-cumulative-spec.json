@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+      "width": 500,
+      "height": 500,
+      "title": "Distribution of complaint types across Chicago",
+      
+      "layer": [
+          
+          
+      {
+          "data": {
+              "url": "JSON/community_features.json",
+              "format": {"type": "json"}
+          },
+          
+  
+          
+            "projection": {"type": "mercator"},
+            "mark": "geoshape",
+            "encoding": {
+  
+             "color": {
+                    "field": "properties.sector",
+                    "type": "nominal"
+                  },
+                
+  
+  
+              "tooltip": {"field": "properties.community", "title": "hello"}
+            }
+      }, 
+            
+      {
+          "data": {
+              "url": "JSON/chicago_complaints.json"
+            },
+          
+          "params": [{
+              "name": "complaint_types",
+              "select": {"type": "point", "fields": ["COMPLAINT TYPE"]},
+              "bind": "legend"
+            }],
+          
+          "mark": "circle",
+          "encoding": {
+              "color": {"field": "COMPLAINT TYPE", "type": "nominal"},
+            "opacity": {
+                "condition": {"param": "complaint_types", "value": 1},
+                "value": 0.0
+              },
+              "longitude": {
+                "field": "LONGITUDE",
+                "type": "quantitative"
+              },
+              "latitude": {
+                "field": "LATITUDE",
+                "type": "quantitative"
+              },
+              "projection": {"type": "mercator"},
+              "size": {"value": 50}
+          }
+      }     
+    ]
+  }

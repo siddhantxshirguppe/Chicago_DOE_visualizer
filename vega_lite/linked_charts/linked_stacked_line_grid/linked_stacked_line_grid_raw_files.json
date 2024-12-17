@@ -1,0 +1,138 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "vconcat": [
+        {
+            "mark": {
+                "type": "area"
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "scale": {
+                        "scheme": "dark2"
+                    },
+                    "title": "Complaint Type",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT YEAR",
+                        "type": "quantitative"
+                    },
+                    {
+                        "aggregate": "count",
+                        "type": "quantitative"
+                    },
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "COMPLAINT YEAR",
+                    "title": "Year",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "aggregate": "count",
+                    "title": "Number of Complaints",
+                    "type": "quantitative"
+                }
+            },
+            "height": 400,
+            "name": "view_3",
+            "title": "Stacked Line Chart of Complaints Over the Years",
+            "width": 600
+        },
+        {
+            "mark": {
+                "type": "rect"
+            },
+            "encoding": {
+                "color": {
+                    "aggregate": "count",
+                    "scale": {
+                        "scheme": "viridis"
+                    },
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT YEAR",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT MONTH",
+                        "type": "nominal"
+                    },
+                    {
+                        "aggregate": "count",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "COMPLAINT YEAR",
+                    "title": "Year",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "field": "COMPLAINT MONTH",
+                    "sort": [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December"
+                    ],
+                    "title": "Month",
+                    "type": "ordinal"
+                }
+            },
+            "height": 300,
+            "title": "Heatmap of Count of Complaints Across Months and Years",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_3",
+                        "empty": true
+                    }
+                }
+            ],
+            "width": 800
+        }
+    ],
+    "data": {
+        "url": "vega_lite/linked_charts/linked_stacked_line_grid/altair-data-8569c5e6c7924aa2f8ab257596f6d3e7.json",
+        "format": {
+            "type": "json"
+        }
+    },
+    "params": [
+        {
+            "name": "param_3",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "COMPLAINT TYPE"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_3"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

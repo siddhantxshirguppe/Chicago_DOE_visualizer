@@ -1,0 +1,62 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A population pyramid for the US in 2000.",
+     "data": {
+      "url": "JSON/filtered_complaints.json"
+    },
+    "spacing": 0,
+    "hconcat": [{
+      "transform": [{
+        "filter": {"field": "DATA SOURCE", "equal": "DEPT. OF PUBLIC HEALTH"}
+      }],
+      "title": "DEPT. OF PUBLIC HEALTH",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "YEAR_ORDER", "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "title": "Number of complaints",
+          "field": "NUMBER OF COMPLAINTS",
+          "sort": "descending"
+        },
+        "color": {
+          "field": "DATA SOURCE",
+          "scale": {"range": ["#675193", "#ca8861"]}
+        }
+      }
+    }, {
+      "width": 20,
+      "mark": {
+        "type": "text",
+        "align": "center"
+      },
+      "encoding": {
+        "y": {"field": "YEAR_ORDER", "type": "ordinal","axis": false, "sort": "descending"},
+        "text": {"field": "YEAR_ORDER", "type": "quantitative"}
+      }
+    }, {
+      "transform": [{
+        "filter": {"field": "DATA SOURCE", "equal": "HISTORIC DEPT. OF ENVIRONMENT"}
+      }],
+      "title": "HISTORIC DEPT. OF ENVIRONMENT",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "NUMBER OF COMPLAINTS", 
+            "axis": false,
+           "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "title": "Number of complaints",
+          "field": "NUMBER OF COMPLAINTS"
+        },
+        "color": {
+          "field": "DATA SOURCE"
+          
+        }
+      }
+    }]
+  }

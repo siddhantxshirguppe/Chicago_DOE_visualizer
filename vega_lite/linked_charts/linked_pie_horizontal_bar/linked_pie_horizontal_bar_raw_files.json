@@ -1,0 +1,113 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "mark": {
+                "type": "arc"
+            },
+            "encoding": {
+                "color": {
+                    "field": "DIRECTION",
+                    "scale": {
+                        "scheme": "plasma"
+                    },
+                    "type": "nominal"
+                },
+                "size": {
+                    "aggregate": "count",
+                    "type": "quantitative"
+                },
+                "theta": {
+                    "aggregate": "count",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "DIRECTION",
+                        "type": "nominal"
+                    },
+                    {
+                        "aggregate": "count",
+                        "type": "quantitative"
+                    }
+                ]
+            },
+            "height": 400,
+            "name": "view_1",
+            "title": "Pie Chart of Complaints by Direction (N, S, E, W)",
+            "width": 600
+        },
+        {
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "color": {
+                    "aggregate": "count",
+                    "scale": {
+                        "scheme": "viridis"
+                    },
+                    "title": "Number of Complaints",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "community",
+                        "type": "nominal"
+                    },
+                    {
+                        "aggregate": "count",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "aggregate": "count",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "community",
+                    "title": "Community",
+                    "type": "nominal"
+                }
+            },
+            "height": 800,
+            "title": "Complaints by Community",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_1",
+                        "empty": true
+                    }
+                }
+            ],
+            "width": 600
+        }
+    ],
+    "data": {
+        "url": "vega_lite/linked_charts/linked_pie_horizontal_bar/altair-data-6668f1a91f847c8d140510806e723cf6.json",
+        "format": {
+            "type": "json"
+        }
+    },
+    "params": [
+        {
+            "name": "param_1",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "DIRECTION"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_1"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

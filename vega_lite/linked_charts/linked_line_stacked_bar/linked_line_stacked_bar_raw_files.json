@@ -1,0 +1,103 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "vconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_line_stacked_bar/altair-data-2249f1c3cf1a14f00c6af784daf03140.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "line"
+            },
+            "encoding": {
+                "color": {
+                    "field": "DEPARTMENT",
+                    "legend": {
+                        "title": "Department"
+                    },
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "Functioning Month",
+                        "type": "ordinal"
+                    }
+                ],
+                "x": {
+                    "field": "Functioning Month",
+                    "title": "Functioning Month",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "field": "Counts",
+                    "title": "Number of Counts",
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "name": "view_5",
+            "title": "Counts Over Time",
+            "width": 1700
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_line_stacked_bar/altair-data-fbf382bef549d555e4d009ec3c685ecd.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "color": {
+                    "field": "DEPARTMENT",
+                    "title": "Department",
+                    "type": "nominal"
+                },
+                "x": {
+                    "field": "COMPLAINT TYPE",
+                    "title": "Complaint Type",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "COUNT OF COMPLAINT TYPE FOR DEPARTMENT",
+                    "title": "Count of Complaints",
+                    "type": "quantitative"
+                }
+            },
+            "height": 400,
+            "title": "Complaint Types by Department",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_5"
+                    }
+                }
+            ],
+            "width": 1700
+        }
+    ],
+    "params": [
+        {
+            "name": "param_5",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "DEPARTMENT"
+                ]
+            },
+            "views": [
+                "view_5"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

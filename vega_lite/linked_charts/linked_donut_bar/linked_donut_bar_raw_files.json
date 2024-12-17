@@ -1,0 +1,113 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_donut_bar/altair-data-3f5305a1edf4b63db1a7454d33402996.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "arc",
+                "innerRadius": 100
+            },
+            "encoding": {
+                "color": {
+                    "field": "Month",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "title": "Month",
+                    "type": "nominal"
+                },
+                "opacity": {
+                    "value": 0.8
+                },
+                "theta": {
+                    "field": "Total Complaints",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "Month",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Total Complaints",
+                        "type": "quantitative"
+                    }
+                ]
+            },
+            "height": 400,
+            "name": "view_7",
+            "title": "Radial Chart of Complaints by Month for the year 2000",
+            "width": 400
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_donut_bar/altair-data-1d32f3ce303b619fd833a7ad3ae2ff11.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Count",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "Count",
+                    "type": "quantitative"
+                }
+            },
+            "height": 400,
+            "title": "Bar Chart of Complaint Types by Month",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_7"
+                    }
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "params": [
+        {
+            "name": "param_7",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "Month"
+                ]
+            },
+            "views": [
+                "view_7"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

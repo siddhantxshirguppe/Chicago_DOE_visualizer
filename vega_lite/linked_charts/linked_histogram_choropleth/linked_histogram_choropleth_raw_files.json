@@ -1,0 +1,119 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_histogram_choropleth/altair-data-4449db9cfccdc61aac08cc33dba9c0ec.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "INSPECTOR",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "INSPECTOR",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "name": "view_10",
+            "title": "Total Complaint Types per Inspector",
+            "width": 900
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_histogram_choropleth/altair-data-2081646f2199e77954bd4984df96dcb5.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "color": "blue",
+                "size": 60
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "INSPECTOR",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "LATITUDE",
+                    "scale": {
+                        "domain": [
+                            -87.90710348,
+                            -87.524796961
+                        ]
+                    },
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "LONGITUDE",
+                    "scale": {
+                        "domain": [
+                            41.644660599,
+                            42.022825001
+                        ]
+                    },
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "title": "Complaint Locations",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_10"
+                    }
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "params": [
+        {
+            "name": "param_10",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "INSPECTOR"
+                ]
+            },
+            "views": [
+                "view_10"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

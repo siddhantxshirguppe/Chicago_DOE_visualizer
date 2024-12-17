@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Complaints by street type",
+  
+    "layer": [
+      {
+        "data": {
+          "url": "JSON/street_types.json"
+        },   
+        "mark": {
+          "type": "arc",
+          "innerRadius": 0, 
+          "outerRadius": 150
+        },
+        "encoding": {
+          "theta": {"field": "NUMBER OF COMPLAINTS", "type": "quantitative"},
+          "color": {"field": "STREET TYPE", "type": "nominal"}
+        }
+      }
+    ],
+    "config": {
+      "legend": {
+          "offset": -85,
+          "orient": "top-right",
+          "titleLimit": 0
+      }
+    }
+  }

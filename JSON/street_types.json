@@ -1,0 +1,22 @@
+[
+    {
+        "STREET TYPE": "AVE",
+        "NUMBER OF COMPLAINTS": 30229
+    },
+    {
+        "STREET TYPE": "ST",
+        "NUMBER OF COMPLAINTS": 20371
+    },
+    {
+        "STREET TYPE": "RD",
+        "NUMBER OF COMPLAINTS": 2322
+    },
+    {
+        "STREET TYPE": "PL",
+        "NUMBER OF COMPLAINTS": 1306
+    },
+    {
+        "STREET TYPE": "DR",
+        "NUMBER OF COMPLAINTS": 1016
+    }
+]

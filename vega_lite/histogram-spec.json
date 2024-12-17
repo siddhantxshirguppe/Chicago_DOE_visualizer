@@ -1,0 +1,21 @@
+{
+    "data": {
+        "url": "JSON/inspector_complaints.json"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "INSPECTOR",
+            "type": "nominal",
+            "title": "Inspector ID"
+        },
+        "y": {
+            "field": "COMPLAINT COUNT",
+            "type": "quantitative",
+            "title": "Number of Complaints"
+        }
+    },
+    "width": 600,
+    "height": 400,
+    "title": "Histogram of Number of Complaints by Inspector"
+}

@@ -1,0 +1,122 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_pie_scatter/altair-data-74f6d1338d067b32f4a790c53c511b7a.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "arc"
+            },
+            "encoding": {
+                "color": {
+                    "field": "STREET TYPE",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "type": "nominal"
+                },
+                "theta": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "STREET TYPE",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ]
+            },
+            "height": 300,
+            "name": "view_6",
+            "title": "Complaints by Street Type",
+            "width": 300
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_pie_scatter/altair-data-db61a8f750b494f09bf865464bca996a.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "color": "blue",
+                "size": 60
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "STREET TYPE",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "LATITUDE",
+                    "scale": {
+                        "domain": [
+                            -87.90710348,
+                            -87.524796961
+                        ]
+                    },
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "LONGITUDE",
+                    "scale": {
+                        "domain": [
+                            41.644660599,
+                            42.022825001
+                        ]
+                    },
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "title": "Complaint Locations",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_6"
+                    }
+                }
+            ],
+            "width": 300
+        }
+    ],
+    "params": [
+        {
+            "name": "param_6",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "STREET TYPE"
+                ]
+            },
+            "views": [
+                "view_6"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

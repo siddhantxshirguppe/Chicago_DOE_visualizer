@@ -1,0 +1,117 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_histogram_scatter/altair-data-81c72e2614059aab1b8e6ad9ed7f0ea9.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "INSPECTOR",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COMPLAINT RESPONSE DAYS",
+                        "type": "quantitative"
+                    }
+                ],
+                "x": {
+                    "field": "INSPECTOR",
+                    "title": "Inspector",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "COMPLAINT RESPONSE DAYS",
+                    "title": "Complaint Response Days",
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "name": "view_8",
+            "title": "Complaint Response Days by Inspector (less is better)",
+            "width": 400
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_histogram_scatter/altair-data-2081646f2199e77954bd4984df96dcb5.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "color": "blue",
+                "size": 60
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "LATITUDE",
+                    "scale": {
+                        "domain": [
+                            -87.90710348,
+                            -87.524796961
+                        ]
+                    },
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "LONGITUDE",
+                    "scale": {
+                        "domain": [
+                            41.644660599,
+                            42.022825001
+                        ]
+                    },
+                    "type": "quantitative"
+                }
+            },
+            "height": 300,
+            "title": "Complaint Locations",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_8"
+                    }
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "params": [
+        {
+            "name": "param_8",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "INSPECTOR"
+                ]
+            },
+            "views": [
+                "view_8"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "JSON/yearly_monthly_counts.json"
+    },
+    "title": "Heatmap of count of complaints across months and years",
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "Month",
+        "type": "ordinal",
+        "title": "Month"
+      },
+      "color": {
+        "field": "Count",
+        "type": "quantitative",
+        "scale": {"scheme": "viridis"} 
+      }
+    }
+  }

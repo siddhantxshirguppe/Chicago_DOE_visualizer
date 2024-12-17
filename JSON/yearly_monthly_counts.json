@@ -1,0 +1,1852 @@
+[
+    {
+        "Year": "1993",
+        "Month": "01",
+        "Count": 129
+    },
+    {
+        "Year": "1993",
+        "Month": "02",
+        "Count": 130
+    },
+    {
+        "Year": "1993",
+        "Month": "03",
+        "Count": 189
+    },
+    {
+        "Year": "1993",
+        "Month": "04",
+        "Count": 189
+    },
+    {
+        "Year": "1993",
+        "Month": "05",
+        "Count": 173
+    },
+    {
+        "Year": "1993",
+        "Month": "06",
+        "Count": 217
+    },
+    {
+        "Year": "1993",
+        "Month": "07",
+        "Count": 251
+    },
+    {
+        "Year": "1993",
+        "Month": "08",
+        "Count": 267
+    },
+    {
+        "Year": "1993",
+        "Month": "09",
+        "Count": 161
+    },
+    {
+        "Year": "1993",
+        "Month": "10",
+        "Count": 211
+    },
+    {
+        "Year": "1993",
+        "Month": "11",
+        "Count": 198
+    },
+    {
+        "Year": "1993",
+        "Month": "12",
+        "Count": 156
+    },
+    {
+        "Year": "1994",
+        "Month": "01",
+        "Count": 116
+    },
+    {
+        "Year": "1994",
+        "Month": "02",
+        "Count": 155
+    },
+    {
+        "Year": "1994",
+        "Month": "03",
+        "Count": 200
+    },
+    {
+        "Year": "1994",
+        "Month": "04",
+        "Count": 288
+    },
+    {
+        "Year": "1994",
+        "Month": "05",
+        "Count": 255
+    },
+    {
+        "Year": "1994",
+        "Month": "06",
+        "Count": 273
+    },
+    {
+        "Year": "1994",
+        "Month": "07",
+        "Count": 264
+    },
+    {
+        "Year": "1994",
+        "Month": "08",
+        "Count": 326
+    },
+    {
+        "Year": "1994",
+        "Month": "09",
+        "Count": 301
+    },
+    {
+        "Year": "1994",
+        "Month": "10",
+        "Count": 238
+    },
+    {
+        "Year": "1994",
+        "Month": "11",
+        "Count": 216
+    },
+    {
+        "Year": "1994",
+        "Month": "12",
+        "Count": 160
+    },
+    {
+        "Year": "1995",
+        "Month": "01",
+        "Count": 199
+    },
+    {
+        "Year": "1995",
+        "Month": "02",
+        "Count": 157
+    },
+    {
+        "Year": "1995",
+        "Month": "03",
+        "Count": 225
+    },
+    {
+        "Year": "1995",
+        "Month": "04",
+        "Count": 128
+    },
+    {
+        "Year": "1995",
+        "Month": "05",
+        "Count": 205
+    },
+    {
+        "Year": "1995",
+        "Month": "06",
+        "Count": 239
+    },
+    {
+        "Year": "1995",
+        "Month": "07",
+        "Count": 158
+    },
+    {
+        "Year": "1995",
+        "Month": "08",
+        "Count": 233
+    },
+    {
+        "Year": "1995",
+        "Month": "09",
+        "Count": 190
+    },
+    {
+        "Year": "1995",
+        "Month": "10",
+        "Count": 186
+    },
+    {
+        "Year": "1995",
+        "Month": "11",
+        "Count": 143
+    },
+    {
+        "Year": "1995",
+        "Month": "12",
+        "Count": 80
+    },
+    {
+        "Year": "1996",
+        "Month": "01",
+        "Count": 178
+    },
+    {
+        "Year": "1996",
+        "Month": "02",
+        "Count": 176
+    },
+    {
+        "Year": "1996",
+        "Month": "03",
+        "Count": 158
+    },
+    {
+        "Year": "1996",
+        "Month": "04",
+        "Count": 207
+    },
+    {
+        "Year": "1996",
+        "Month": "05",
+        "Count": 249
+    },
+    {
+        "Year": "1996",
+        "Month": "06",
+        "Count": 234
+    },
+    {
+        "Year": "1996",
+        "Month": "07",
+        "Count": 304
+    },
+    {
+        "Year": "1996",
+        "Month": "08",
+        "Count": 274
+    },
+    {
+        "Year": "1996",
+        "Month": "09",
+        "Count": 200
+    },
+    {
+        "Year": "1996",
+        "Month": "10",
+        "Count": 228
+    },
+    {
+        "Year": "1996",
+        "Month": "11",
+        "Count": 139
+    },
+    {
+        "Year": "1996",
+        "Month": "12",
+        "Count": 124
+    },
+    {
+        "Year": "1997",
+        "Month": "01",
+        "Count": 117
+    },
+    {
+        "Year": "1997",
+        "Month": "02",
+        "Count": 123
+    },
+    {
+        "Year": "1997",
+        "Month": "03",
+        "Count": 157
+    },
+    {
+        "Year": "1997",
+        "Month": "04",
+        "Count": 184
+    },
+    {
+        "Year": "1997",
+        "Month": "05",
+        "Count": 177
+    },
+    {
+        "Year": "1997",
+        "Month": "06",
+        "Count": 187
+    },
+    {
+        "Year": "1997",
+        "Month": "07",
+        "Count": 220
+    },
+    {
+        "Year": "1997",
+        "Month": "08",
+        "Count": 234
+    },
+    {
+        "Year": "1997",
+        "Month": "09",
+        "Count": 193
+    },
+    {
+        "Year": "1997",
+        "Month": "10",
+        "Count": 189
+    },
+    {
+        "Year": "1997",
+        "Month": "11",
+        "Count": 116
+    },
+    {
+        "Year": "1997",
+        "Month": "12",
+        "Count": 141
+    },
+    {
+        "Year": "1998",
+        "Month": "01",
+        "Count": 149
+    },
+    {
+        "Year": "1998",
+        "Month": "02",
+        "Count": 146
+    },
+    {
+        "Year": "1998",
+        "Month": "03",
+        "Count": 202
+    },
+    {
+        "Year": "1998",
+        "Month": "04",
+        "Count": 231
+    },
+    {
+        "Year": "1998",
+        "Month": "05",
+        "Count": 249
+    },
+    {
+        "Year": "1998",
+        "Month": "06",
+        "Count": 268
+    },
+    {
+        "Year": "1998",
+        "Month": "07",
+        "Count": 259
+    },
+    {
+        "Year": "1998",
+        "Month": "08",
+        "Count": 235
+    },
+    {
+        "Year": "1998",
+        "Month": "09",
+        "Count": 297
+    },
+    {
+        "Year": "1998",
+        "Month": "10",
+        "Count": 224
+    },
+    {
+        "Year": "1998",
+        "Month": "11",
+        "Count": 155
+    },
+    {
+        "Year": "1998",
+        "Month": "12",
+        "Count": 146
+    },
+    {
+        "Year": "1999",
+        "Month": "01",
+        "Count": 129
+    },
+    {
+        "Year": "1999",
+        "Month": "02",
+        "Count": 137
+    },
+    {
+        "Year": "1999",
+        "Month": "03",
+        "Count": 187
+    },
+    {
+        "Year": "1999",
+        "Month": "04",
+        "Count": 228
+    },
+    {
+        "Year": "1999",
+        "Month": "05",
+        "Count": 229
+    },
+    {
+        "Year": "1999",
+        "Month": "06",
+        "Count": 238
+    },
+    {
+        "Year": "1999",
+        "Month": "07",
+        "Count": 298
+    },
+    {
+        "Year": "1999",
+        "Month": "08",
+        "Count": 268
+    },
+    {
+        "Year": "1999",
+        "Month": "09",
+        "Count": 300
+    },
+    {
+        "Year": "1999",
+        "Month": "10",
+        "Count": 237
+    },
+    {
+        "Year": "1999",
+        "Month": "11",
+        "Count": 199
+    },
+    {
+        "Year": "1999",
+        "Month": "12",
+        "Count": 142
+    },
+    {
+        "Year": "2000",
+        "Month": "01",
+        "Count": 128
+    },
+    {
+        "Year": "2000",
+        "Month": "02",
+        "Count": 211
+    },
+    {
+        "Year": "2000",
+        "Month": "03",
+        "Count": 258
+    },
+    {
+        "Year": "2000",
+        "Month": "04",
+        "Count": 235
+    },
+    {
+        "Year": "2000",
+        "Month": "05",
+        "Count": 241
+    },
+    {
+        "Year": "2000",
+        "Month": "06",
+        "Count": 283
+    },
+    {
+        "Year": "2000",
+        "Month": "07",
+        "Count": 252
+    },
+    {
+        "Year": "2000",
+        "Month": "08",
+        "Count": 355
+    },
+    {
+        "Year": "2000",
+        "Month": "09",
+        "Count": 294
+    },
+    {
+        "Year": "2000",
+        "Month": "10",
+        "Count": 258
+    },
+    {
+        "Year": "2000",
+        "Month": "11",
+        "Count": 208
+    },
+    {
+        "Year": "2000",
+        "Month": "12",
+        "Count": 146
+    },
+    {
+        "Year": "2001",
+        "Month": "01",
+        "Count": 203
+    },
+    {
+        "Year": "2001",
+        "Month": "02",
+        "Count": 159
+    },
+    {
+        "Year": "2001",
+        "Month": "03",
+        "Count": 189
+    },
+    {
+        "Year": "2001",
+        "Month": "04",
+        "Count": 274
+    },
+    {
+        "Year": "2001",
+        "Month": "05",
+        "Count": 271
+    },
+    {
+        "Year": "2001",
+        "Month": "06",
+        "Count": 272
+    },
+    {
+        "Year": "2001",
+        "Month": "07",
+        "Count": 311
+    },
+    {
+        "Year": "2001",
+        "Month": "08",
+        "Count": 286
+    },
+    {
+        "Year": "2001",
+        "Month": "09",
+        "Count": 175
+    },
+    {
+        "Year": "2001",
+        "Month": "10",
+        "Count": 183
+    },
+    {
+        "Year": "2001",
+        "Month": "11",
+        "Count": 194
+    },
+    {
+        "Year": "2001",
+        "Month": "12",
+        "Count": 159
+    },
+    {
+        "Year": "2002",
+        "Month": "01",
+        "Count": 152
+    },
+    {
+        "Year": "2002",
+        "Month": "02",
+        "Count": 161
+    },
+    {
+        "Year": "2002",
+        "Month": "03",
+        "Count": 189
+    },
+    {
+        "Year": "2002",
+        "Month": "04",
+        "Count": 256
+    },
+    {
+        "Year": "2002",
+        "Month": "05",
+        "Count": 255
+    },
+    {
+        "Year": "2002",
+        "Month": "06",
+        "Count": 268
+    },
+    {
+        "Year": "2002",
+        "Month": "07",
+        "Count": 271
+    },
+    {
+        "Year": "2002",
+        "Month": "08",
+        "Count": 257
+    },
+    {
+        "Year": "2002",
+        "Month": "09",
+        "Count": 271
+    },
+    {
+        "Year": "2002",
+        "Month": "10",
+        "Count": 239
+    },
+    {
+        "Year": "2002",
+        "Month": "11",
+        "Count": 166
+    },
+    {
+        "Year": "2002",
+        "Month": "12",
+        "Count": 115
+    },
+    {
+        "Year": "2003",
+        "Month": "01",
+        "Count": 146
+    },
+    {
+        "Year": "2003",
+        "Month": "02",
+        "Count": 137
+    },
+    {
+        "Year": "2003",
+        "Month": "03",
+        "Count": 187
+    },
+    {
+        "Year": "2003",
+        "Month": "04",
+        "Count": 219
+    },
+    {
+        "Year": "2003",
+        "Month": "05",
+        "Count": 254
+    },
+    {
+        "Year": "2003",
+        "Month": "06",
+        "Count": 244
+    },
+    {
+        "Year": "2003",
+        "Month": "07",
+        "Count": 276
+    },
+    {
+        "Year": "2003",
+        "Month": "08",
+        "Count": 223
+    },
+    {
+        "Year": "2003",
+        "Month": "09",
+        "Count": 242
+    },
+    {
+        "Year": "2003",
+        "Month": "10",
+        "Count": 339
+    },
+    {
+        "Year": "2003",
+        "Month": "11",
+        "Count": 166
+    },
+    {
+        "Year": "2003",
+        "Month": "12",
+        "Count": 114
+    },
+    {
+        "Year": "2004",
+        "Month": "01",
+        "Count": 94
+    },
+    {
+        "Year": "2004",
+        "Month": "02",
+        "Count": 128
+    },
+    {
+        "Year": "2004",
+        "Month": "03",
+        "Count": 173
+    },
+    {
+        "Year": "2004",
+        "Month": "04",
+        "Count": 254
+    },
+    {
+        "Year": "2004",
+        "Month": "05",
+        "Count": 200
+    },
+    {
+        "Year": "2004",
+        "Month": "06",
+        "Count": 252
+    },
+    {
+        "Year": "2004",
+        "Month": "07",
+        "Count": 226
+    },
+    {
+        "Year": "2004",
+        "Month": "08",
+        "Count": 233
+    },
+    {
+        "Year": "2004",
+        "Month": "09",
+        "Count": 220
+    },
+    {
+        "Year": "2004",
+        "Month": "10",
+        "Count": 188
+    },
+    {
+        "Year": "2004",
+        "Month": "11",
+        "Count": 116
+    },
+    {
+        "Year": "2004",
+        "Month": "12",
+        "Count": 97
+    },
+    {
+        "Year": "2005",
+        "Month": "01",
+        "Count": 81
+    },
+    {
+        "Year": "2005",
+        "Month": "02",
+        "Count": 145
+    },
+    {
+        "Year": "2005",
+        "Month": "03",
+        "Count": 182
+    },
+    {
+        "Year": "2005",
+        "Month": "04",
+        "Count": 228
+    },
+    {
+        "Year": "2005",
+        "Month": "05",
+        "Count": 198
+    },
+    {
+        "Year": "2005",
+        "Month": "06",
+        "Count": 296
+    },
+    {
+        "Year": "2005",
+        "Month": "07",
+        "Count": 224
+    },
+    {
+        "Year": "2005",
+        "Month": "08",
+        "Count": 275
+    },
+    {
+        "Year": "2005",
+        "Month": "09",
+        "Count": 223
+    },
+    {
+        "Year": "2005",
+        "Month": "10",
+        "Count": 159
+    },
+    {
+        "Year": "2005",
+        "Month": "11",
+        "Count": 131
+    },
+    {
+        "Year": "2005",
+        "Month": "12",
+        "Count": 103
+    },
+    {
+        "Year": "2006",
+        "Month": "01",
+        "Count": 118
+    },
+    {
+        "Year": "2006",
+        "Month": "02",
+        "Count": 135
+    },
+    {
+        "Year": "2006",
+        "Month": "03",
+        "Count": 197
+    },
+    {
+        "Year": "2006",
+        "Month": "04",
+        "Count": 154
+    },
+    {
+        "Year": "2006",
+        "Month": "05",
+        "Count": 200
+    },
+    {
+        "Year": "2006",
+        "Month": "06",
+        "Count": 203
+    },
+    {
+        "Year": "2006",
+        "Month": "07",
+        "Count": 190
+    },
+    {
+        "Year": "2006",
+        "Month": "08",
+        "Count": 194
+    },
+    {
+        "Year": "2006",
+        "Month": "09",
+        "Count": 160
+    },
+    {
+        "Year": "2006",
+        "Month": "10",
+        "Count": 140
+    },
+    {
+        "Year": "2006",
+        "Month": "11",
+        "Count": 105
+    },
+    {
+        "Year": "2006",
+        "Month": "12",
+        "Count": 68
+    },
+    {
+        "Year": "2007",
+        "Month": "01",
+        "Count": 106
+    },
+    {
+        "Year": "2007",
+        "Month": "02",
+        "Count": 72
+    },
+    {
+        "Year": "2007",
+        "Month": "03",
+        "Count": 148
+    },
+    {
+        "Year": "2007",
+        "Month": "04",
+        "Count": 126
+    },
+    {
+        "Year": "2007",
+        "Month": "05",
+        "Count": 198
+    },
+    {
+        "Year": "2007",
+        "Month": "06",
+        "Count": 164
+    },
+    {
+        "Year": "2007",
+        "Month": "07",
+        "Count": 176
+    },
+    {
+        "Year": "2007",
+        "Month": "08",
+        "Count": 154
+    },
+    {
+        "Year": "2007",
+        "Month": "09",
+        "Count": 163
+    },
+    {
+        "Year": "2007",
+        "Month": "10",
+        "Count": 185
+    },
+    {
+        "Year": "2007",
+        "Month": "11",
+        "Count": 135
+    },
+    {
+        "Year": "2007",
+        "Month": "12",
+        "Count": 68
+    },
+    {
+        "Year": "2008",
+        "Month": "01",
+        "Count": 100
+    },
+    {
+        "Year": "2008",
+        "Month": "02",
+        "Count": 80
+    },
+    {
+        "Year": "2008",
+        "Month": "03",
+        "Count": 103
+    },
+    {
+        "Year": "2008",
+        "Month": "04",
+        "Count": 138
+    },
+    {
+        "Year": "2008",
+        "Month": "05",
+        "Count": 129
+    },
+    {
+        "Year": "2008",
+        "Month": "06",
+        "Count": 145
+    },
+    {
+        "Year": "2008",
+        "Month": "07",
+        "Count": 154
+    },
+    {
+        "Year": "2008",
+        "Month": "08",
+        "Count": 159
+    },
+    {
+        "Year": "2008",
+        "Month": "09",
+        "Count": 143
+    },
+    {
+        "Year": "2008",
+        "Month": "10",
+        "Count": 100
+    },
+    {
+        "Year": "2008",
+        "Month": "11",
+        "Count": 74
+    },
+    {
+        "Year": "2008",
+        "Month": "12",
+        "Count": 61
+    },
+    {
+        "Year": "2009",
+        "Month": "01",
+        "Count": 75
+    },
+    {
+        "Year": "2009",
+        "Month": "02",
+        "Count": 91
+    },
+    {
+        "Year": "2009",
+        "Month": "03",
+        "Count": 134
+    },
+    {
+        "Year": "2009",
+        "Month": "04",
+        "Count": 118
+    },
+    {
+        "Year": "2009",
+        "Month": "05",
+        "Count": 167
+    },
+    {
+        "Year": "2009",
+        "Month": "06",
+        "Count": 150
+    },
+    {
+        "Year": "2009",
+        "Month": "07",
+        "Count": 158
+    },
+    {
+        "Year": "2009",
+        "Month": "08",
+        "Count": 153
+    },
+    {
+        "Year": "2009",
+        "Month": "09",
+        "Count": 175
+    },
+    {
+        "Year": "2009",
+        "Month": "10",
+        "Count": 100
+    },
+    {
+        "Year": "2009",
+        "Month": "11",
+        "Count": 105
+    },
+    {
+        "Year": "2009",
+        "Month": "12",
+        "Count": 69
+    },
+    {
+        "Year": "2010",
+        "Month": "01",
+        "Count": 81
+    },
+    {
+        "Year": "2010",
+        "Month": "02",
+        "Count": 79
+    },
+    {
+        "Year": "2010",
+        "Month": "03",
+        "Count": 126
+    },
+    {
+        "Year": "2010",
+        "Month": "04",
+        "Count": 121
+    },
+    {
+        "Year": "2010",
+        "Month": "05",
+        "Count": 118
+    },
+    {
+        "Year": "2010",
+        "Month": "06",
+        "Count": 121
+    },
+    {
+        "Year": "2010",
+        "Month": "07",
+        "Count": 94
+    },
+    {
+        "Year": "2010",
+        "Month": "08",
+        "Count": 124
+    },
+    {
+        "Year": "2010",
+        "Month": "09",
+        "Count": 114
+    },
+    {
+        "Year": "2010",
+        "Month": "10",
+        "Count": 120
+    },
+    {
+        "Year": "2010",
+        "Month": "11",
+        "Count": 85
+    },
+    {
+        "Year": "2010",
+        "Month": "12",
+        "Count": 79
+    },
+    {
+        "Year": "2011",
+        "Month": "01",
+        "Count": 82
+    },
+    {
+        "Year": "2011",
+        "Month": "02",
+        "Count": 57
+    },
+    {
+        "Year": "2011",
+        "Month": "03",
+        "Count": 119
+    },
+    {
+        "Year": "2011",
+        "Month": "04",
+        "Count": 114
+    },
+    {
+        "Year": "2011",
+        "Month": "05",
+        "Count": 128
+    },
+    {
+        "Year": "2011",
+        "Month": "06",
+        "Count": 137
+    },
+    {
+        "Year": "2011",
+        "Month": "07",
+        "Count": 117
+    },
+    {
+        "Year": "2011",
+        "Month": "08",
+        "Count": 186
+    },
+    {
+        "Year": "2011",
+        "Month": "09",
+        "Count": 183
+    },
+    {
+        "Year": "2011",
+        "Month": "10",
+        "Count": 138
+    },
+    {
+        "Year": "2011",
+        "Month": "11",
+        "Count": 124
+    },
+    {
+        "Year": "2011",
+        "Month": "12",
+        "Count": 90
+    },
+    {
+        "Year": "2012",
+        "Month": "01",
+        "Count": 77
+    },
+    {
+        "Year": "2012",
+        "Month": "02",
+        "Count": 77
+    },
+    {
+        "Year": "2012",
+        "Month": "03",
+        "Count": 79
+    },
+    {
+        "Year": "2012",
+        "Month": "04",
+        "Count": 83
+    },
+    {
+        "Year": "2012",
+        "Month": "05",
+        "Count": 132
+    },
+    {
+        "Year": "2012",
+        "Month": "06",
+        "Count": 117
+    },
+    {
+        "Year": "2012",
+        "Month": "07",
+        "Count": 90
+    },
+    {
+        "Year": "2012",
+        "Month": "08",
+        "Count": 103
+    },
+    {
+        "Year": "2012",
+        "Month": "09",
+        "Count": 90
+    },
+    {
+        "Year": "2012",
+        "Month": "10",
+        "Count": 102
+    },
+    {
+        "Year": "2012",
+        "Month": "11",
+        "Count": 84
+    },
+    {
+        "Year": "2012",
+        "Month": "12",
+        "Count": 40
+    },
+    {
+        "Year": "2013",
+        "Month": "01",
+        "Count": 101
+    },
+    {
+        "Year": "2013",
+        "Month": "02",
+        "Count": 66
+    },
+    {
+        "Year": "2013",
+        "Month": "03",
+        "Count": 93
+    },
+    {
+        "Year": "2013",
+        "Month": "04",
+        "Count": 118
+    },
+    {
+        "Year": "2013",
+        "Month": "05",
+        "Count": 129
+    },
+    {
+        "Year": "2013",
+        "Month": "06",
+        "Count": 117
+    },
+    {
+        "Year": "2013",
+        "Month": "07",
+        "Count": 108
+    },
+    {
+        "Year": "2013",
+        "Month": "08",
+        "Count": 132
+    },
+    {
+        "Year": "2013",
+        "Month": "09",
+        "Count": 107
+    },
+    {
+        "Year": "2013",
+        "Month": "10",
+        "Count": 112
+    },
+    {
+        "Year": "2013",
+        "Month": "11",
+        "Count": 76
+    },
+    {
+        "Year": "2013",
+        "Month": "12",
+        "Count": 61
+    },
+    {
+        "Year": "2014",
+        "Month": "01",
+        "Count": 62
+    },
+    {
+        "Year": "2014",
+        "Month": "02",
+        "Count": 73
+    },
+    {
+        "Year": "2014",
+        "Month": "03",
+        "Count": 81
+    },
+    {
+        "Year": "2014",
+        "Month": "04",
+        "Count": 119
+    },
+    {
+        "Year": "2014",
+        "Month": "05",
+        "Count": 139
+    },
+    {
+        "Year": "2014",
+        "Month": "06",
+        "Count": 93
+    },
+    {
+        "Year": "2014",
+        "Month": "07",
+        "Count": 108
+    },
+    {
+        "Year": "2014",
+        "Month": "08",
+        "Count": 112
+    },
+    {
+        "Year": "2014",
+        "Month": "09",
+        "Count": 89
+    },
+    {
+        "Year": "2014",
+        "Month": "10",
+        "Count": 109
+    },
+    {
+        "Year": "2014",
+        "Month": "11",
+        "Count": 52
+    },
+    {
+        "Year": "2014",
+        "Month": "12",
+        "Count": 73
+    },
+    {
+        "Year": "2015",
+        "Month": "01",
+        "Count": 63
+    },
+    {
+        "Year": "2015",
+        "Month": "02",
+        "Count": 41
+    },
+    {
+        "Year": "2015",
+        "Month": "03",
+        "Count": 85
+    },
+    {
+        "Year": "2015",
+        "Month": "04",
+        "Count": 82
+    },
+    {
+        "Year": "2015",
+        "Month": "05",
+        "Count": 75
+    },
+    {
+        "Year": "2015",
+        "Month": "06",
+        "Count": 82
+    },
+    {
+        "Year": "2015",
+        "Month": "07",
+        "Count": 75
+    },
+    {
+        "Year": "2015",
+        "Month": "08",
+        "Count": 89
+    },
+    {
+        "Year": "2015",
+        "Month": "09",
+        "Count": 67
+    },
+    {
+        "Year": "2015",
+        "Month": "10",
+        "Count": 75
+    },
+    {
+        "Year": "2015",
+        "Month": "11",
+        "Count": 54
+    },
+    {
+        "Year": "2015",
+        "Month": "12",
+        "Count": 52
+    },
+    {
+        "Year": "2016",
+        "Month": "01",
+        "Count": 56
+    },
+    {
+        "Year": "2016",
+        "Month": "02",
+        "Count": 54
+    },
+    {
+        "Year": "2016",
+        "Month": "03",
+        "Count": 76
+    },
+    {
+        "Year": "2016",
+        "Month": "04",
+        "Count": 78
+    },
+    {
+        "Year": "2016",
+        "Month": "05",
+        "Count": 102
+    },
+    {
+        "Year": "2016",
+        "Month": "06",
+        "Count": 92
+    },
+    {
+        "Year": "2016",
+        "Month": "07",
+        "Count": 97
+    },
+    {
+        "Year": "2016",
+        "Month": "08",
+        "Count": 110
+    },
+    {
+        "Year": "2016",
+        "Month": "09",
+        "Count": 85
+    },
+    {
+        "Year": "2016",
+        "Month": "10",
+        "Count": 97
+    },
+    {
+        "Year": "2016",
+        "Month": "11",
+        "Count": 72
+    },
+    {
+        "Year": "2016",
+        "Month": "12",
+        "Count": 55
+    },
+    {
+        "Year": "2017",
+        "Month": "01",
+        "Count": 74
+    },
+    {
+        "Year": "2017",
+        "Month": "02",
+        "Count": 70
+    },
+    {
+        "Year": "2017",
+        "Month": "03",
+        "Count": 94
+    },
+    {
+        "Year": "2017",
+        "Month": "04",
+        "Count": 80
+    },
+    {
+        "Year": "2017",
+        "Month": "05",
+        "Count": 70
+    },
+    {
+        "Year": "2017",
+        "Month": "06",
+        "Count": 84
+    },
+    {
+        "Year": "2017",
+        "Month": "07",
+        "Count": 93
+    },
+    {
+        "Year": "2017",
+        "Month": "08",
+        "Count": 126
+    },
+    {
+        "Year": "2017",
+        "Month": "09",
+        "Count": 84
+    },
+    {
+        "Year": "2017",
+        "Month": "10",
+        "Count": 98
+    },
+    {
+        "Year": "2017",
+        "Month": "11",
+        "Count": 76
+    },
+    {
+        "Year": "2017",
+        "Month": "12",
+        "Count": 60
+    },
+    {
+        "Year": "2018",
+        "Month": "01",
+        "Count": 56
+    },
+    {
+        "Year": "2018",
+        "Month": "02",
+        "Count": 67
+    },
+    {
+        "Year": "2018",
+        "Month": "03",
+        "Count": 68
+    },
+    {
+        "Year": "2018",
+        "Month": "04",
+        "Count": 81
+    },
+    {
+        "Year": "2018",
+        "Month": "05",
+        "Count": 83
+    },
+    {
+        "Year": "2018",
+        "Month": "06",
+        "Count": 98
+    },
+    {
+        "Year": "2018",
+        "Month": "07",
+        "Count": 101
+    },
+    {
+        "Year": "2018",
+        "Month": "08",
+        "Count": 106
+    },
+    {
+        "Year": "2018",
+        "Month": "09",
+        "Count": 82
+    },
+    {
+        "Year": "2018",
+        "Month": "10",
+        "Count": 93
+    },
+    {
+        "Year": "2018",
+        "Month": "11",
+        "Count": 41
+    },
+    {
+        "Year": "2018",
+        "Month": "12",
+        "Count": 69
+    },
+    {
+        "Year": "2019",
+        "Month": "01",
+        "Count": 47
+    },
+    {
+        "Year": "2019",
+        "Month": "02",
+        "Count": 57
+    },
+    {
+        "Year": "2019",
+        "Month": "03",
+        "Count": 80
+    },
+    {
+        "Year": "2019",
+        "Month": "04",
+        "Count": 104
+    },
+    {
+        "Year": "2019",
+        "Month": "05",
+        "Count": 112
+    },
+    {
+        "Year": "2019",
+        "Month": "06",
+        "Count": 159
+    },
+    {
+        "Year": "2019",
+        "Month": "07",
+        "Count": 130
+    },
+    {
+        "Year": "2019",
+        "Month": "08",
+        "Count": 154
+    },
+    {
+        "Year": "2019",
+        "Month": "09",
+        "Count": 178
+    },
+    {
+        "Year": "2019",
+        "Month": "10",
+        "Count": 147
+    },
+    {
+        "Year": "2019",
+        "Month": "11",
+        "Count": 92
+    },
+    {
+        "Year": "2019",
+        "Month": "12",
+        "Count": 102
+    },
+    {
+        "Year": "2020",
+        "Month": "01",
+        "Count": 85
+    },
+    {
+        "Year": "2020",
+        "Month": "02",
+        "Count": 76
+    },
+    {
+        "Year": "2020",
+        "Month": "03",
+        "Count": 125
+    },
+    {
+        "Year": "2020",
+        "Month": "04",
+        "Count": 168
+    },
+    {
+        "Year": "2020",
+        "Month": "05",
+        "Count": 185
+    },
+    {
+        "Year": "2020",
+        "Month": "06",
+        "Count": 158
+    },
+    {
+        "Year": "2020",
+        "Month": "07",
+        "Count": 196
+    },
+    {
+        "Year": "2020",
+        "Month": "08",
+        "Count": 185
+    },
+    {
+        "Year": "2020",
+        "Month": "09",
+        "Count": 176
+    },
+    {
+        "Year": "2020",
+        "Month": "10",
+        "Count": 129
+    },
+    {
+        "Year": "2020",
+        "Month": "11",
+        "Count": 183
+    },
+    {
+        "Year": "2020",
+        "Month": "12",
+        "Count": 131
+    },
+    {
+        "Year": "2021",
+        "Month": "01",
+        "Count": 120
+    },
+    {
+        "Year": "2021",
+        "Month": "02",
+        "Count": 133
+    },
+    {
+        "Year": "2021",
+        "Month": "03",
+        "Count": 272
+    },
+    {
+        "Year": "2021",
+        "Month": "04",
+        "Count": 205
+    },
+    {
+        "Year": "2021",
+        "Month": "05",
+        "Count": 223
+    },
+    {
+        "Year": "2021",
+        "Month": "06",
+        "Count": 268
+    },
+    {
+        "Year": "2021",
+        "Month": "07",
+        "Count": 222
+    },
+    {
+        "Year": "2021",
+        "Month": "08",
+        "Count": 219
+    },
+    {
+        "Year": "2021",
+        "Month": "09",
+        "Count": 207
+    },
+    {
+        "Year": "2021",
+        "Month": "10",
+        "Count": 196
+    },
+    {
+        "Year": "2021",
+        "Month": "11",
+        "Count": 183
+    },
+    {
+        "Year": "2021",
+        "Month": "12",
+        "Count": 149
+    },
+    {
+        "Year": "2022",
+        "Month": "01",
+        "Count": 135
+    },
+    {
+        "Year": "2022",
+        "Month": "02",
+        "Count": 133
+    },
+    {
+        "Year": "2022",
+        "Month": "03",
+        "Count": 195
+    },
+    {
+        "Year": "2022",
+        "Month": "04",
+        "Count": 182
+    },
+    {
+        "Year": "2022",
+        "Month": "05",
+        "Count": 188
+    },
+    {
+        "Year": "2022",
+        "Month": "06",
+        "Count": 232
+    },
+    {
+        "Year": "2022",
+        "Month": "07",
+        "Count": 161
+    },
+    {
+        "Year": "2022",
+        "Month": "08",
+        "Count": 230
+    },
+    {
+        "Year": "2022",
+        "Month": "09",
+        "Count": 154
+    },
+    {
+        "Year": "2022",
+        "Month": "10",
+        "Count": 173
+    },
+    {
+        "Year": "2022",
+        "Month": "11",
+        "Count": 152
+    },
+    {
+        "Year": "2022",
+        "Month": "12",
+        "Count": 108
+    },
+    {
+        "Year": "2023",
+        "Month": "01",
+        "Count": 111
+    },
+    {
+        "Year": "2023",
+        "Month": "02",
+        "Count": 102
+    },
+    {
+        "Year": "2023",
+        "Month": "03",
+        "Count": 134
+    },
+    {
+        "Year": "2023",
+        "Month": "04",
+        "Count": 160
+    },
+    {
+        "Year": "2023",
+        "Month": "05",
+        "Count": 238
+    },
+    {
+        "Year": "2023",
+        "Month": "06",
+        "Count": 223
+    },
+    {
+        "Year": "2023",
+        "Month": "07",
+        "Count": 162
+    },
+    {
+        "Year": "2023",
+        "Month": "08",
+        "Count": 261
+    },
+    {
+        "Year": "2023",
+        "Month": "09",
+        "Count": 182
+    },
+    {
+        "Year": "2023",
+        "Month": "10",
+        "Count": 39
+    }
+]

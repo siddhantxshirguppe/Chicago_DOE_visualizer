@@ -1,0 +1,27 @@
+{
+    "data": {
+        "url": "JSON/complaints_df.json"
+    },
+    "mark": "area",
+    "encoding": {
+        "x": {
+            "field": "COMPLAINT DATE",
+            "type": "temporal",
+            "timeUnit": "year",
+            "title": "Year"
+        },
+        "y": {
+            "aggregate": "count",
+            "type": "quantitative",
+            "title": "Number of Complaints"
+        },
+        "color": {
+            "field": "COMPLAINT TYPE",
+            "type": "nominal",
+            "title": "Complaint Type"
+        }
+    },
+    "width": 600,
+    "height": 400,
+    "title": "Stacked Area Chart of Complaints Over the Years"
+}

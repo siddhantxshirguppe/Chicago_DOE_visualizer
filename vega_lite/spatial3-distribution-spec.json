@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+      "width": 600,
+      "height": 500,
+      "title": "Complaints by community",
+      
+      "layer": [
+          
+          
+      {
+          "data": {
+              "url": "JSON/grouped_grid_tricount.json",
+              "format": {"type": "json"}
+          },
+            "projection": {"type": "mercator"},
+            "mark": "geoshape",
+            "encoding": {
+  
+             "color": {
+                    "field": "properties.Total_Complaint_Types",
+                    "type": "quantitative",
+                     "title":"complaints count per commmunity"
+                  },
+                
+              "tooltip": {"field": "properties.community", "title": "hello"}
+            }
+      }    
+    ]
+  }

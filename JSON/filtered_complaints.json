@@ -1,0 +1,158 @@
+[
+    {
+        "YEAR": 2011,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 659,
+        "YEAR_ORDER": 1
+    },
+    {
+        "YEAR": 2012,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1074,
+        "YEAR_ORDER": 2
+    },
+    {
+        "YEAR": 2013,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1220,
+        "YEAR_ORDER": 3
+    },
+    {
+        "YEAR": 2014,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1110,
+        "YEAR_ORDER": 4
+    },
+    {
+        "YEAR": 2015,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 840,
+        "YEAR_ORDER": 5
+    },
+    {
+        "YEAR": 2016,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 974,
+        "YEAR_ORDER": 6
+    },
+    {
+        "YEAR": 2017,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1009,
+        "YEAR_ORDER": 7
+    },
+    {
+        "YEAR": 2018,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 945,
+        "YEAR_ORDER": 8
+    },
+    {
+        "YEAR": 2019,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1362,
+        "YEAR_ORDER": 9
+    },
+    {
+        "YEAR": 2020,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1797,
+        "YEAR_ORDER": 10
+    },
+    {
+        "YEAR": 2021,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 2397,
+        "YEAR_ORDER": 11
+    },
+    {
+        "YEAR": 2022,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 2043,
+        "YEAR_ORDER": 12
+    },
+    {
+        "YEAR": 2023,
+        "DATA SOURCE": "DEPT. OF PUBLIC HEALTH",
+        "NUMBER OF COMPLAINTS": 1612,
+        "YEAR_ORDER": 13
+    },
+    {
+        "YEAR": 1993,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2271,
+        "YEAR_ORDER": 1
+    },
+    {
+        "YEAR": 1994,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2792,
+        "YEAR_ORDER": 2
+    },
+    {
+        "YEAR": 1995,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2143,
+        "YEAR_ORDER": 3
+    },
+    {
+        "YEAR": 1996,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2471,
+        "YEAR_ORDER": 4
+    },
+    {
+        "YEAR": 1997,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2038,
+        "YEAR_ORDER": 5
+    },
+    {
+        "YEAR": 1998,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2561,
+        "YEAR_ORDER": 6
+    },
+    {
+        "YEAR": 1999,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2592,
+        "YEAR_ORDER": 7
+    },
+    {
+        "YEAR": 2000,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2869,
+        "YEAR_ORDER": 8
+    },
+    {
+        "YEAR": 2001,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2676,
+        "YEAR_ORDER": 9
+    },
+    {
+        "YEAR": 2002,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2600,
+        "YEAR_ORDER": 10
+    },
+    {
+        "YEAR": 2003,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2547,
+        "YEAR_ORDER": 11
+    },
+    {
+        "YEAR": 2004,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2181,
+        "YEAR_ORDER": 12
+    },
+    {
+        "YEAR": 2005,
+        "DATA SOURCE": "HISTORIC DEPT. OF ENVIRONMENT",
+        "NUMBER OF COMPLAINTS": 2245,
+        "YEAR_ORDER": 13
+    }
+]

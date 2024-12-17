@@ -1,0 +1,125 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        },
+        "legend": {
+            "offset": 15,
+            "orient": "top-right",
+            "titleLimit": 0
+        }
+    },
+    "hconcat": [
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_scatter_pie/altair-data-62e1f97a4cf8ead9fd0e2c6cc20ac833.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "size": 200
+            },
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "community",
+                        "type": "nominal"
+                    }
+                ],
+                "x": {
+                    "field": "longitude_centroid",
+                    "scale": {
+                        "domain": [
+                            -87.89370075775543,
+                            -87.53490233790232
+                        ]
+                    },
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "latitude_centroid",
+                    "scale": {
+                        "domain": [
+                            41.66013746994187,
+                            42.009623377988696
+                        ]
+                    },
+                    "type": "quantitative"
+                }
+            },
+            "height": 500,
+            "name": "view_1",
+            "title": "Scatter Plot of Complaints by Location",
+            "width": 700
+        },
+        {
+            "data": {
+                "url": "vega_lite/linked_charts/linked_scatter_pie/altair-data-ca09fb58723661de59aa5c416ec3df76.json",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "arc"
+            },
+            "encoding": {
+                "color": {
+                    "field": "COMPLAINT TYPE",
+                    "legend": {
+                        "orient": "right",
+                        "title": "Category Legend"
+                    },
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "type": "nominal"
+                },
+                "theta": {
+                    "field": "COUNT",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "COMPLAINT TYPE",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "COUNT",
+                        "type": "quantitative"
+                    }
+                ]
+            },
+            "height": 400,
+            "title": "Pie Chart of Complaints",
+            "transform": [
+                {
+                    "filter": {
+                        "param": "param_1",
+                        "empty": true
+                    }
+                }
+            ],
+            "width": 400
+        }
+    ],
+    "params": [
+        {
+            "name": "param_1",
+            "select": {
+                "type": "point",
+                "fields": [
+                    "latitude_centroid",
+                    "longitude_centroid"
+                ],
+                "on": "click"
+            },
+            "views": [
+                "view_1"
+            ]
+        }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json"
+}
