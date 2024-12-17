@@ -1,6 +1,11 @@
-# Link to the visualisation solution:
+# Demo of the the visualisation solution:
 
-Link: https://cs424-theboringteam.generic-aws-domain.net/
+
+![sc1](https://github.com/user-attachments/assets/021e527a-bca7-45d5-96e8-74e3b0b5af7e)
+![sc2](https://github.com/user-attachments/assets/44487676-3588-449b-8bc8-fac65578c4df)
+![sc3](https://github.com/user-attachments/assets/7abc45ec-05bf-47b4-bdd2-4572b7d0d71b)
+![sc4](https://github.com/user-attachments/assets/eefc3966-ff28-4d35-b04d-762c87ae0ab3)
+![sc5](https://github.com/user-attachments/assets/d55ef863-894e-418f-9fa1-a40657b56fd5)
 
 # Pictures of interface:
 
